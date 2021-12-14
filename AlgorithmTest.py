@@ -2,11 +2,14 @@
 import setintersection.SetIntersection
 from collinearpoints import CollinearPoints
 from convexhull import ConvexHull
+from egyptianfractions import EgyptianFractions
 from elementdistinctness import ElementDistinctness
 from graphs import MinimumSpanningTree, SingleSourceShortestPath
 from greatestcommondivisor import GreatestCommonDivisor
+from longestcommonsubsequence import LongestCommonSubsequence
 from majorityelement import MajorityElement
 from makingchange import MakingChange
+from matrixmultiplication import MatrixMultiplication
 from maxsubrangesum import MaxSubRangeSum
 from searching import SearchingAlgorithms
 from setintersection import SetIntersection
@@ -83,8 +86,17 @@ points = [[0,5],[9,4],[7,3],[6,1],[10,10],[11,11],[12,12]]
 # print(GreatestCommonDivisor.binary_gcd(245,635))
 
 ## Making change
-print(MakingChange.make_change(8,[1,4,5]))
+# print(MakingChange.make_change(8,[1,4,5]))
 
 
+## Longest Common Subsequence
+# print(LongestCommonSubsequence.LCS_dynamic("algorithm","exploration"))
 
+## Egyptian Fractions
+# print(EgyptianFractions.egpytian_fraction(22,333))
+
+## Matrix Multiplication
+# print(MatrixMultiplication.matrix_multiplication_recursive(1,4,[5,6,9,3,10]))
+# print(MatrixMultiplication.matrix_multiplication_recursive_order([5,6,9,3,10],4))
+# print(MatrixMultiplication.matrix_multiplication_memoized([5,6,9,3,10],4))
 
